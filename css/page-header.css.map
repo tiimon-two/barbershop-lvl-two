@@ -1,0 +1,1 @@
+{"version":3,"file":"page-header.css","sources":["page-header.scss"],"sourcesContent":[".page-header{\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n}\r\n\r\n.page-header__logo{\r\n\theight: 85px;\r\n}"],"names":[],"mappings":"AAAA,AAAA,YAAY,CAAA;EACX,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM,GACtB;;AAED,AAAA,kBAAkB,CAAA;EACjB,MAAM,EAAE,IAAI,GACZ"}

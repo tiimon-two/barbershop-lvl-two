@@ -1,0 +1,30 @@
+{
+  "name": "barbershop-lvl-two",
+  "version": "1.0.0",
+  "description": "макет барбершопа со второго уровня html-academy",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "gulp": "^4.0.2"
+  },
+  "devDependencies": {
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-watch": "^5.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiimon-two/barbershop-lvl-two.git"
+  },
+  "keywords": [
+    "barbershop"
+  ],
+  "author": "Порубов Артём",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiimon-two/barbershop-lvl-two/issues"
+  },
+  "homepage": "https://github.com/tiimon-two/barbershop-lvl-two#readme"
+}
