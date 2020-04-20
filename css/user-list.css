@@ -13,9 +13,11 @@
   left: 21px;
   width: 16px;
   height: 16px;
-  opacity: 0.3; }
-  .user-list__login-icon polygon {
-    fill: #ffffff; }
+  opacity: 0.3;
+  /*polygon {
+		fill: #ffffff;
+	}*/
+  fill: #ffffff; }
 
 @media (min-width: 768px) {
   .user-list {
@@ -26,13 +28,17 @@
     padding: 0;
     font-size: 0; }
     .user-list__login:hover .user-list__login-icon {
-      opacity: 1; }
-      .user-list__login:hover .user-list__login-icon polygon {
-        fill: #826550; }
+      opacity: 1;
+      /*polygon {
+				fill: #826550;
+			}*/
+      fill: #826550; }
     .user-list__login:active .user-list__login-icon {
-      opacity: 0.3; }
-      .user-list__login:active .user-list__login-icon polygon {
-        fill: #ffffff; }
+      opacity: 0.3;
+      /*polygon {
+				fill: #ffffff;
+			}*/
+      fill: #ffffff; }
   .user-list__login-icon {
     top: 29px;
     left: 12px; } }
@@ -62,7 +68,7 @@
     background-color: #ffffff; }
   .user-list__login:hover .user-list__login-icon {
     opacity: 0.3; }
-  .user-list__login:hover .user-list__login-icon polygon {
+  .user-list__login:hover .user-list__login-icon {
     fill: #000000; }
   .user-list__login:active .user-list__login-icon {
     opacity: 0.1; }
