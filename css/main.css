@@ -541,4 +541,31 @@ img {
   .user-list__login-icon {
     left: 15px; } }
 
+.advantages {
+  /*	width: 320px;*/
+  display: flex;
+  flex-direction: column; }
+
+.advantages__list {
+  list-style: none;
+  padding: 0 20px; }
+
+.advantages__item {
+  text-align: center; }
+
+.advantages__item-picture {
+  width: 100px;
+  height: 95px;
+  text-align: center; }
+
+.advantages__title {
+  font-size: 30px;
+  line-height: 30px; }
+
+.advantages__description {
+  font-size: 20px;
+  line-height: 27px;
+  padding-left: 60px;
+  padding-right: 60px; }
+
 /*# sourceMappingURL=main.css.map */
