@@ -148,16 +148,16 @@
 				<ul class="news__list">
 					<li class="news__item">
 						<time class="news__date" datetime="2019-09-29">
-							<b class="news__day">сент</b>
+							<b class="news__day">29<br><span class="news__day--small">сент</span></b>
 						</time>
-						<p class="news__text">Нам наконец завезли Ягермайстер!
-						 Теперь вы можете пропусить стаканчик во время стрижки.</p>
+						<p class="news__text">Нам наконец завезли<br> Ягермайстер!
+						 Теперь вы можете<br> пропусить стаканчик во время<br> стрижки.</p>
 					</li>
 					<li class="news__item">
 						<time class="news__date" datetime="2019-09-19">
-							<b class="news__day">сент</b>
+							<b class="news__day">19<br><span class="news__day--small">сент</span></b>
 						</time>
-						<p class="news__text">В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды. Спешите записаться!</p>
+						<p class="news__text">В нашей команде пополнение,<br> Борис «Бритва» Стригунец,<br> обладатель множества титулов и<br> наград пополнил наши стройные<br> ряды. Спешите записаться!</p>
 					</li>
 				</ul>
 				<a href="#" class="news__to-all button">Показать все</a>
@@ -169,20 +169,24 @@
 				<a href="#" class="reviews__write button">Оставить свой</a>
 				<div class="reviews__list slider__list">
 					<blockquote class="reviews__item slider__item">
-						<p class="reviews__picture">
-							<img src="img/picture-travis.jpg" width="50" height="47" alt="Фото Трэвиса Баркета">
-						</p>
-						<cite class="reviews__autor">Трэвис Баркет</cite>
-						<p class="reviews__text">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
+						<div class="reviews__pic">
+							<p class="reviews__picture">
+								<img src="img/picture-travis.jpg" width="50" height="47" alt="Фото Трэвиса Баркета">
+							</p>
+						</div>
+						<div class="reviews__description">
+							<cite class="reviews__autor">Трэвис Баркет</cite>
+							<p class="reviews__text">Спасибо за лысину! Был проездом в Москве, заскочил побриться, чтобы было видно новую татуировку!</p>
+						</div>
 					</blockquote>
-					<blockquote class="reviews__item">
+					<blockquote class="reviews__item reviews__item--hide">
 						<p class="reviews__picture">
 							<img src="img/picture-john.jpg" width="50" height="47" alt="Фото Джона Смита">
 						</p>
 						<cite class="reviews__autor">Джон Смит</cite>
 						<p class="reviews__text">Отличную стрижку мне сделали ребята.</p>
 					</blockquote>
-					<blockquote class="reviews__item">
+					<blockquote class="reviews__item reviews__item--hide">
 						<p class="reviews__picture">
 							<img src="img/picture-ivan.jpg" width="50" height="47" alt="Фото Ивана Бородайло">
 						</p>
@@ -193,9 +197,9 @@
 					<button class="reviews__next" type="button">Следующий отзыв</button>
 				</div>
 				<p class="reviews__toogles slider toogles">
-					<button class="slider__toogle" type="button">1</button>
-					<button class="slider__toogle" type="button">2</button>
-					<button class="slider__toogle" type="button">3</button>
+					<button class="slider__toogle visually-hidden" type="button">1</button>
+					<button class="slider__toogle visually-hidden" type="button">2</button>
+					<button class="slider__toogle visually-hidden" type="button">3</button>
 				</p>
 			</div>
 		</section>
