@@ -1,4 +1,5 @@
 .news {
+  position: relative;
   width: auto;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -52,5 +53,18 @@
   margin-left: 20px;
   margin-right: 20px;
   text-decoration: none; }
+
+@media (min-width: 768px) {
+  .news__title {
+    text-align: left; }
+  .news__list {
+    display: flex;
+    flex-direction: row; }
+  .news__item {
+    padding-right: 40px; }
+  .news__to-all {
+    position: absolute;
+    top: 88px;
+    left: 600px; } }
 
 /*# sourceMappingURL=news.css.map */

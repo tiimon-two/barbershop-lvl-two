@@ -1,5 +1,6 @@
 .reviews {
   width: 100%;
+  position: relative;
   background-color: #ffffff;
   color: #000000; }
 
@@ -49,5 +50,13 @@
 
 .reviews__next {
   display: none; }
+
+@media (min-width: 768px) {
+  .reviews__item {
+    width: 640px; }
+  .reviews__write {
+    position: absolute;
+    top: 0px;
+    left: 0px; } }
 
 /*# sourceMappingURL=reviews.css.map */
